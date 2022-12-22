@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+body {
+  direction: rtl;
+  font-family: 'vazir' !important;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main .title{
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.reviews{
+  width: 400px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(184, 0, 0, 0.3);
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  height: 350px;
+  text-align: center;
+}
+
+.reviews img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.author {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.job{
+  color: crimson;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.info{
+  color: rgb(87, 87, 87);
+  margin-top: 10px;
+}
+
+button{
+  color: crimson;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.review-button{
+  position: absolute;
+  bottom: 20px;
+}
+
+.review-button button{
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.random-btn{
+  background: rgba(220,20,60,.2);
+  position: absolute;
+  bottom: 20px;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  padding: 5px 10px;
+  font-family: 'vazir';
+  cursor: pointer;
+}
